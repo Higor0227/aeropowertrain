@@ -1,10 +1,6 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
-import os
-import pathlib
 import csv
-from scipy.interpolate import interp1d
 
 output = [
     ["Motor", "Propeller", "Static Thrust", "Decay Coeff", "Mass", "Voltage"]
